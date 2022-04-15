@@ -72,11 +72,12 @@ bool updateProduct(Product s[20]){
     int update_num;
     printf("번호는 (취소 :0)? ");
     scanf("%d", &update_num);
-    update_num--;
     if(update_num==0){
         printf("수정취소!\n");
         return 0;
     }
+    
+    update_num--;
     getchar();
     printf("이름은? ");
     scanf("%[^\n]s", s[update_num].name);
