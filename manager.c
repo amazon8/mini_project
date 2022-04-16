@@ -147,6 +147,7 @@ void searchProduct(Product s[20]){
 
     char searchName[20];
     int searchCheck=0;
+    listProduct(s);	
     getchar();
     printf("검색할 이름은? ");
     scanf("%[^\n]s", searchName);
