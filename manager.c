@@ -173,7 +173,7 @@ void limitPrice(Product s[20]){
     int maxPrice;
     int searchCheck=0;
     listProduct(s);    
-    printf("최소 금액과 최대 금액은? ");
+    printf("최소 금액과 최대 금액은?(띄어쓰기를 두고 입력) ");
     scanf("%d %d", &minPrice, &maxPrice);
     printf("================================\n");    
     for(int i=0;i<=num;i++){
