@@ -98,7 +98,7 @@ bool updateProduct(Product s[20]){
 bool deleteProduct(Product s[20]){
     listProduct(s);
     int del_num, check;
-    printf("번호는 (취소 :0)? ");
+    printf("삭제할 번호는 (취소 :0)? ");
     scanf("%d", &del_num);
     if(del_num==0){
         printf("삭제취소!\n");
