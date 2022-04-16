@@ -194,7 +194,7 @@ void limitPrice(Product s[20]){
 void checkDeliveryMethod(Product s[20]){
 
     int deliveryCheck, searchCheck=0;
-
+    listProduct(s);	
     printf("원하는 배송방법은?(1:새벽배송, 2:택배배송) ");
     scanf("%d", &deliveryCheck);
 
