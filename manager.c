@@ -44,13 +44,13 @@ bool printProduct(Product s[20]){
     printf("확인할 제품 번호는? ");
     scanf("%d", &printNum);
     printNum--;
-    printf("================================\n");    
+    printf("=====================================\n");    
     printf("제품명: %s\n", s[printNum].name);
     printf("설명: %s\n", s[printNum].description);
     printf("중량: %s\n", s[printNum].weight);
     printf("가격: %d\n", s[printNum].price);
     printf("배송 방법: %d\n", s[printNum].deliveryMethod);
-    printf("================================\n");
+    printf("=====================================\n");
 
     return true;
 }
