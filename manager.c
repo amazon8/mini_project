@@ -49,7 +49,7 @@ bool printProduct(Product s[20]){
     printf("설명: %s\n", s[printNum].description);
     printf("중량: %s\n", s[printNum].weight);
     printf("가격: %d\n", s[printNum].price);
-    printf("배송방법: %d\n", s[printNum].deliveryMethod);
+    printf("배송 방법: %d\n", s[printNum].deliveryMethod);
     printf("================================\n");
 
     return true;
@@ -73,7 +73,7 @@ bool updateProduct(Product s[20]){
     printf("번호는 (취소 :0)? ");
     scanf("%d", &update_num);
     if(update_num==0){
-        printf("수정취소!\n");
+        printf("수정 취소!\n");
         return 0;
     }
     
